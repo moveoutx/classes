@@ -1,4 +1,3 @@
-import sum from './basic';
 
 export class Character {
   constructor(name, type) {
@@ -83,5 +82,3 @@ export class Zombie extends Character {
     super(name, 'Zombie');
   }
 }
-
-console.log(sum())
